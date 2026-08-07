@@ -24,14 +24,11 @@ Research Experience
 
 Research Interests
 ======
+* Natural Language Processing
+* Machine Learning
 * LLM Reasoning and Reinforcement Learning
 * Hallucination in Vision-Language Models (VLM)
 * LLM Truthfulness and Interpretability
-
-Skills
-======
-* Natural Language Processing
-* Machine Learning
 
 Publications
 ======
