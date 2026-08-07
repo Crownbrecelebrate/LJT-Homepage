@@ -1,14 +1,8 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default"
 title                    : "Junteng Liu"
 title_separator          : "-"
 name                     : &amp;name "Junteng Liu"
@@ -19,7 +13,6 @@ repository               : "Crownbrecelebrate/LJT-Homepage"
 
 # Site Author
 author:
-  # Biographic information
   avatar           : "profile.png"
   name             : "Junteng Liu"
   pronouns         :
@@ -42,7 +35,6 @@ author:
   researchgate     :
   scopus           :
   zotero           :
-
 
   # Repositories and software development
   bitbucket        :
@@ -221,7 +213,6 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -232,14 +223,12 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _publications
   - scope:
       path: ""
       type: publications
@@ -271,7 +260,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
-# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
